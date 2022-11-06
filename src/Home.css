@@ -1,0 +1,20 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(154, 91, 177);
+    color:rgb(20, 20, 20);
+    font-weight: bold;
+}
+.links1{
+    color: rgb(245, 193, 62);
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid rgb(158, 81, 117);
+    border-radius: 9px;
+    padding: 7px;
+    margin-bottom: 1em;
+}

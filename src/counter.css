@@ -1,0 +1,72 @@
+.counter-wrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.counter{
+    height: auto;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 5px 3px lightgray;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width : 650px){
+    .counter{
+        width: 50%;
+        margin: auto;
+    }
+}
+.value{
+    border: 1px solid rgb(7, 67, 156);
+    border-radius: 5px;
+    color: rgb(202, 174, 174);
+    background-color: rgb(108, 8, 215);
+    padding: 10px;
+    text-align: end;
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-top:1px solid rgb(8, 238, 177);
+    height: auto;
+    border-radius:10px;
+
+}
+.button button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    background-color: rgb(134, 102, 186);
+    text-transform: capitalize;
+    color: rgb(173, 182, 107);
+    border-radius: 10px;
+    border: 1px solid rgb(244, 212, 175);
+
+input{
+    padding: 10px;
+    font-size: 18px;
+    border: 3px solid rgb(132, 188, 228);
+    font-weight: 70;
+    border-radius:10px ;
+}
+.link{
+    border: 2px solid rgb(168, 164, 185);
+    margin-top: 1em;
+    text-align: center;
+    color: rgb(247, 10, 157);
+    background-color: rgb(142, 153, 238);
+    padding: 10px;
+    
+
+}
+.link .links {
+    color: rgb(29, 215, 187);
+    text-decoration: none;
+}

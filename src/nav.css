@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid rgb(143, 135, 135);
+    border-radius:5px ;
+    height: 40px;
+    padding: 7px;
+    background-color:rgb(188, 177, 177) ;
+}
+.nav-link{
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+}
